@@ -4,7 +4,9 @@
   --brand-700:#4338CA;     /* tailwind indigo-700 */
   --brand-800:#3730A3;     /* tailwind indigo-800 */
   --brand-900:#312E81;     /* tailwind indigo-900 */
-  --brand-text:#0f172a;    /* slate-900 aprox */
+  --brand-text:#0f172a; 
+  --brand-main:#2b467d; /* color de tu logo */
+  --brand-text:#0f172a;   /* slate-900 aprox */
 }
 
 
@@ -45,6 +47,9 @@ html, body {
 }
 .nav-link.active, .nav-link:hover {
   opacity: 1;
+}
+.navbar-voto {
+  background: var(--brand-main);
 }
 
 
