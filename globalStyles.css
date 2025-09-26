@@ -1,0 +1,64 @@
+:root{
+  --brand-50:#eef2ff;
+  --brand-100:#e0e7ff;
+  --brand-700:#4338CA;     /* tailwind indigo-700 */
+  --brand-800:#3730A3;     /* tailwind indigo-800 */
+  --brand-900:#312E81;     /* tailwind indigo-900 */
+  --brand-text:#0f172a;    /* slate-900 aprox */
+}
+
+
+html, body {
+  font-family: "Century Gothic", "Avant Garde", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: var(--brand-text);
+}
+
+
+:root {
+  --bs-primary: var(--brand-800);
+  --bs-primary-rgb: 55,48,163; /* 3730A3 */
+  --bs-link-color: var(--brand-700);
+  --bs-link-hover-color: var(--brand-900);
+  --bs-body-bg: #f8fafc; /* bg-light */
+}
+
+
+.body-gradient {
+  background:
+    radial-gradient(1200px 600px at 80% -10%, var(--brand-50), transparent 60%),
+    radial-gradient(1000px 500px at -10% 0%, var(--brand-100), transparent 50%),
+    linear-gradient(180deg, #ffffff, #f8fafc 60%);
+  min-height: 100dvh;
+}
+
+
+.navbar-brand {
+  letter-spacing: .2px;
+  font-weight: 700;
+}
+.navbar-indigo {
+  background: linear-gradient(90deg, var(--brand-900), var(--brand-800));
+}
+.nav-link {
+  font-weight: 600;
+  opacity: .9;
+}
+.nav-link.active, .nav-link:hover {
+  opacity: 1;
+}
+
+
+.btn-primary {
+  border: 0;
+  box-shadow: 0 6px 18px rgba(55,48,163,.25);
+}
+.btn-primary:hover {
+  filter: brightness(1.05);
+}
+
+
+.card.soft {
+  border: 1px solid rgba(55,48,163,.12);
+  box-shadow: 0 10px 30px rgba(15,23,42,.04);
+  border-radius: 16px;
+}
